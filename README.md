@@ -22,14 +22,14 @@ import sys
 import os
 def verificar_configuracion():
 print("--- Verificación de Entorno Virtual ---")
-# Comprobar si estamos dentro de un entorno virtual
+
 if hasattr(sys, 'real_prefix') or (sys.base_prefix != sys.prefix):
  print("✅ Estado: Entorno Virtual ACTIVO.")
 else:
  print("❌ Estado: Entorno Virtual NO detectado. Por favor, actívalo.")
-# Mostrar la ruta del ejecutable de Python que se está usando
+
 print(f"📍 Ruta de Python: {sys.executable}")
-# Simular una pequeña petición de red para verificar conexión
+
 try:
  response = requests.get("<https://www.google.com>")
  if response.status_code == 200:
