@@ -1,4 +1,4 @@
-<img width="729" height="121" alt="image" src="https://github.com/user-attachments/assets/a868c22d-1dcd-4e93-9e2d-d30a411bfc3f" />Paso a paso para conexión a la API de Gemini
+
 
 1- Debemos crear una carpeta llamada "gemini-api"
 2- Al entrar creamos una carpeta llamada "prueba_entorno", donde verificaremos si el entorno virtual esta activo. Para ello debemos hacer lo siguiente: 
