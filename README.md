@@ -1,7 +1,7 @@
 
 
-1- Debemos crear una carpeta llamada "gemini-api"
-2- Al entrar creamos una carpeta llamada "prueba_entorno", donde verificaremos si el entorno virtual esta activo. Para ello debemos hacer lo siguiente: 
+# Debemos crear una carpeta llamada "gemini-api"
+# Al entrar creamos una carpeta llamada "prueba_entorno", donde verificaremos si el entorno virtual esta activo. Para ello debemos hacer lo siguiente: 
                                           - Abrir Visual Studio
                                           - Seleccionamos la carpeta creada "gemini-api"
                                           - ctrl+ñ = Para abrir la terminal de Visual Studio
@@ -14,8 +14,8 @@
                                                           *Selecciona la opción que apunta a tu carpeta del entorno virtual (debería
                                                            decir algo como ./venv/Scripts/python.exe ).
 
-3- Instalación de librería: "pip install requests"
-4- Crear un archivo llamado prueba_entorno.py en la carpeta gemini-api y pega el siguiente código
+# Instalación de librería: "pip install requests"
+# Crear un archivo llamado prueba_entorno.py en la carpeta gemini-api y pega el siguiente código
 
 import requests
 import sys
