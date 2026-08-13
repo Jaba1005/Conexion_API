@@ -1,5 +1,4 @@
-
-
+# Configuración entorno virtual VS Code
 # Debemos crear una carpeta llamada "gemini-api"
 # Al entrar creamos una carpeta llamada "prueba_entorno", donde verificaremos si el entorno virtual esta activo. Para ello debemos hacer lo siguiente: 
                                           - Abrir Visual Studio
